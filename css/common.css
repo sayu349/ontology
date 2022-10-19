@@ -1,0 +1,709 @@
+@charset "UTF-8";
+
+/*common.css*/
+.first-view {
+    height: calc(100vh - 110px);
+    background-image: url(../images/ookawa221061297_TP_V.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.first-view-text {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 1px 100px #00005d;
+}
+
+.first-view-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    line-height: 72px
+}
+
+.first-view-text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.question {
+    width: 1000px;
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question ul {
+    display: flex;
+}
+
+.question ul img {
+    height: 30px;
+    margin-top: 16px;
+}
+
+.question ul li {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 16px;
+    
+}
+
+.question h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #00005d;
+}
+
+.site-menu a {
+    margin-left: 15px;
+}
+
+.header-inner {
+    align-items: center;
+}
+
+.front-blog {
+    width: 1000px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f8f8;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.front-blog h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.front-blog-detail {
+    display: flex;
+    margin: 30px 0;
+    border-bottom: 1px solid #000000;
+    padding: 30px;
+}
+
+@media (max-width: 800px) {
+    .front-blog-detail {
+        display: block;
+    }
+}
+
+.front-blog-img {
+    width: 300px;
+}
+
+.front-blog-text {
+    margin-left: 16px;
+}
+
+.front-blog-text h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.front-blog-tag-time {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.front-blog-tag {
+    background-color: #f4dd64;
+    padding: 14px;
+    border-radius: 14px;
+}
+
+.front-blog-time {
+    margin-left: 16px;
+}
+
+.text-detail {
+    margin-top: 16px;
+    line-height: 1.5;
+}
+
+.for-blog-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.blog-button {
+    background-color: #f4dd64;
+    display: inline-block;
+    min-width: 180px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.blog-button:hover {
+    background-color: #d8b500;
+}
+
+
+.link-button-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.link-button {
+    background-color: #f4dd64;
+    display: inline-block;
+    min-width: 180px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.link-button:hover {
+    background-color: #d8b500;
+}
+
+.contact-service {
+    width: 1200px;
+    max-width: 90%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f8f8;
+    padding: 40px;
+}
+
+.contact-service h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-service-detail {
+    width: 1000px;
+    max-width: 90%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-service-img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    column-gap: 95px;
+    row-gap: 75px;
+    justify-content: center;
+}
+
+.contact-service-p {
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 2;
+    text-align: center;
+}
+
+.our-company {
+    height: 300px;
+    background-image: url(../images/jan-vlacuha-8YW-TJPJxsk-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-company-text {
+    padding: 25px 0;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.our-company-text h2 {
+    font-size: 30px;
+}
+
+.our-company-text p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.our-company-background-color {
+    background-color: #f8f8f8;
+    padding: 40px 0;   
+}
+
+.our-company-grid {
+    width: 1200px;
+    max-width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-company-grid-text {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 240px);
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: center;
+}
+
+.our-company-grid-text dt {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.our-company-grid-text dd {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.pic {
+    border-radius: 24px;
+}
+
+.start-question {
+    width: 1000px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/bg_grid.jpg);
+    border: 2px solid skyblue;
+    background-position: left top;
+    background-size:90% auto;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 15px 15px 0 rgb(129, 215, 237);
+}
+
+.start-question h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.start-question ul {
+    margin-top: 30px;
+}
+
+.start-question-text{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.start-question-text img {
+    width: 50px;
+}
+
+.start-question-text p {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+
+/*about.css*/
+.title {
+    height: 310px;
+    background-image: url(../images/macbookFTHG1289_TP_V.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-summary {
+    width: 1000px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 30px;
+}
+
+.about-summary h2 {
+    color: black;
+    font-size: 25px;
+}
+
+.about-summary p {
+    color: black;
+    margin-top: 30px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.our-company {
+    height: 300px;
+    background-image: url(../images/jan-vlacuha-8YW-TJPJxsk-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-company-text {
+    padding: 25px 0;
+    background-color: rgba(0,0,0,0.25);
+}
+.our-company-text h2 {
+    font-size: 30px;   
+}
+
+.our-company-text p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.our-company-strength {
+    width: 1000px;
+    max-width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.our-company-strength img {
+    width: 500px;
+}
+
+.our-company-strength-text {
+    margin-left: 20px;
+}
+
+.our-company-strength-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.our-company-strength-text p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+.link-button-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.link-button {
+    background-color: #f4dd64;
+    display: inline-block;
+    min-width: 180px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+/*blog.css*/
+.blog {
+    display: flex;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.blog img {
+    width: 360px;
+    max-width: 300px;
+}
+
+.blog-text {
+    max-width: 500px;
+    margin-left: 40px;
+}
+
+.blog-text h2 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.blog-text p {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.blog-info {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.blog-tag {
+    background-color: #f4dd64;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.blog-time {
+    margin-left: 16px;
+}
+
+.pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination span {
+    background-color: #f4dd64;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.header 
+.start-question 
+.contact-service 
+.front-blog {
+    background-color: #ffffff;
+}
+
+
+/*blogdetail.css*/
+.detail {
+    width: 1000px;
+    max-width: 90%;
+    margin: 50px auto 100px;
+    font-size: 20px;
+}
+
+.detail-config {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.single-category {
+    background-color: #f4dd64;
+    color: #000000;
+    border-radius: 24px;
+    padding: 15px;
+}
+
+.time {
+    margin-left: 20px;
+}
+
+
+
+.detail-content 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+iframe {
+    margin-top: 20px;
+}
+
+#cf-tbl {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cf-tbl table{
+    width: 100%;
+    border-collapse: collapse;
+    border: solid #CCC;
+    border-width: 1px;
+    color: #444;
+    margin-top: 20px;
+    }
+    #cf-tbl table tr th,
+    #cf-tbl table tr td{
+    padding: 0.5em;
+    text-align: left;
+    vertical-align: top;
+    border: solid #CCC;
+    border-width: 1px;
+    vertical-align: middle;
+    }
+    #cf-tbl table tr th{
+    width: 35%;
+    background: #eee;
+    }
+    @media screen and (max-width:768px){
+    #cf-tbl{
+    width: 100%;
+    }
+    
+    #cf-tbl table,
+    #cf-tbl table tbody,
+    #cf-tbl table tr,
+    #cf-tbl table tr th,
+    #cf-tbl table tr td{
+    display: block;
+    }
+    
+    #cf-tbl table{
+    width: 100%;
+    border-width: 0 0 1px 0;
+    }
+    
+    #cf-tbl table tr th,
+    #cf-tbl table tr td{
+    width: 100%;
+    padding: 3% 5%;
+    }
+    
+    #cf-tbl table tr td{
+    border-width: 0px 1px 0px 1px;
+    }
+    }
+    /*「必須」文字デザイン*/
+    .required{
+    font-size:.8em;
+    padding: 5px;
+    background: #F57500;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 5px;
+    }
+    
+    /*「任意」文字デザイン*/
+    .optional{
+    font-size:.8em;
+    padding: 5px;
+    background: #000080;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 5px;
+    }
+    
+    /* 入力項目を見やすく */
+    input.wpcf7-form-control.wpcf7-text,
+    textarea.wpcf7-form-control.wpcf7-textarea {
+        width: 100%;
+        padding: 8px 15px;
+        margin-right: 10px;
+        margin-top: 10px;
+        border: 1px solid #d0d5d8;
+        border-radius: 3px;
+        background-color: #eff1f5;
+    }
+    textarea.wpcf7-form-control.wpcf7-textarea {
+        height: 200px;
+    }
+    
+    /* 「送信する」ボタン */
+    input.wpcf7-submit {
+        display: block;
+        padding: 15px;
+        width: 400px;
+        background: #ffaa56;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 2px;
+        margin: 15px auto 0
+    }
+    @media screen and (max-width:768px){
+    input.wpcf7-submit {
+    width: 250px;
+    }
+    }
+    
+    input.wpcf7-submit:hover {
+        box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+        transform: translateY(-4px);
+        opacity:0.7;
+    }
+    /* エラーメッセージを見やすく */
+    span.wpcf7-not-valid-tip,
+    .wpcf7-response-output.wpcf7-validation-errors {
+        color: red;
+        font-weight: 600;
+    }
+    
+    .question-form {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .question-form-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+/*パンくずリスト設定*/
+.breadcrumb {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: #b3b0b0;
+    color: #ffffff;
+}
+
+.breadcrumb span a {
+    background-color: none;
+    color: #ffffff;
+}

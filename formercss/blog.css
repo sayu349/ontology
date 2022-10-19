@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+.title {
+    height: 310px;
+    background-image: url('./images/macbookFTHG1289_TP_V.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.blog {
+    display: flex;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.blog img {
+    width: 360px;
+}
+
+.blog-text {
+    max-width: 500px;
+    margin-left: 40px;
+}
+
+.blog-text h2 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.blog-text p {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.blog-info {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.blog-tag {
+    background-color: #f4dd64;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.blog-time {
+    margin-left: 16px;
+}
+
+.pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.header 
+.start-question 
+.contact-service 
+.front-blog 
+{
+    background-color: #ffffff;
+}
