@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+.title {
+    height: 310px;
+    background-image: url('./images/macbookFTHG1289_TP_V.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.question-form {
+    padding: 20px;
+}
+
+#cf-tbl{
+    width: 800px;
+    }
+    
+#cf-tbl table{
+width: 100%;
+border-collapse: collapse;
+border: solid #CCC;
+border-width: 1px;
+color: #444;
+}
+#cf-tbl table tr th,
+#cf-tbl table tr td{
+padding: 0.5em;
+text-align: left;
+vertical-align: top;
+border: solid #CCC;
+border-width: 1px;
+vertical-align: middle;
+}
+#cf-tbl table tr th{
+width: 35%;
+background: #eee;
+}
+@media screen and (max-width:768px){
+#cf-tbl{
+width: 100%;
+}
+
+#cf-tbl table,
+#cf-tbl table tbody,
+#cf-tbl table tr,
+#cf-tbl table tr th,
+#cf-tbl table tr td{
+display: block;
+}
+
+#cf-tbl table{
+width: 100%;
+border-width: 0 0 1px 0;
+}
+
+#cf-tbl table tr th,
+#cf-tbl table tr td{
+width: 100%;
+padding: 3% 5%;
+}
+
+#cf-tbl table tr td{
+border-width: 0px 1px 0px 1px;
+}
+}
+/*「必須」文字デザイン*/
+.required{
+font-size:.8em;
+padding: 5px;
+background: #F57500;
+color: #fff;
+border-radius: 3px;
+margin-right: 5px;
+}
+
+/*「任意」文字デザイン*/
+.optional{
+font-size:.8em;
+padding: 5px;
+background: #000080;
+color: #fff;
+border-radius: 3px;
+margin-right: 5px;
+}
+
+/* 入力項目を見やすく */
+input.wpcf7-form-control.wpcf7-text,
+textarea.wpcf7-form-control.wpcf7-textarea {
+    width: 100%;
+    padding: 8px 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #d0d5d8;
+    border-radius: 3px;
+    background-color: #eff1f5;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+    height: 200px;
+}
+
+/* 「送信する」ボタン */
+input.wpcf7-submit {
+    display: block;
+    padding: 15px;
+    width: 400px;
+    background: #ffaa56;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    margin: 15px auto 0
+}
+@media screen and (max-width:768px){
+input.wpcf7-submit {
+width: 250px;
+}
+}
+
+input.wpcf7-submit:hover {
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+    transform: translateY(-4px);
+    opacity:0.7;
+}
+/* エラーメッセージを見やすく */
+span.wpcf7-not-valid-tip,
+.wpcf7-response-output.wpcf7-validation-errors {
+    color: red;
+    font-weight: 600;
+}
+
+.question-form {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.question-form-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}

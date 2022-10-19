@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.first-view {
+    height: calc(100vh - 110px);
+    background-image: url(./images/ookawa221061297_TP_V.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.first-view-text {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 1px 100px #00005d;
+}
+
+.first-view-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    line-height: 72px
+}
+
+.first-view-text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.question {
+    width: 1000px;
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question ul {
+    display: flex;
+}
+
+.question ul img {
+    height: 30px;
+    margin-top: 16px;
+}
+
+.question ul li {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 16px;
+    
+}
+
+.question h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #00005d;
+}
+
+.site-menu a {
+    margin-left: 15px;
+}
+
+.header-inner {
+    align-items: center;
+}
