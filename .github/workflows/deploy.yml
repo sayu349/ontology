@@ -16,4 +16,4 @@ jobs:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           LOCAL_DIR: ./
-          REMOTE_DIR: /onto-logy.com/public_html/wp-content/themes/merge-test/
+          REMOTE_DIR: /onto-logy.com/public_html/wp-content/themes/
